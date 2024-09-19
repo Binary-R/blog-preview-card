@@ -36,7 +36,7 @@ Users should be able to:
  ![Page screenshot](assets/images/blog-preview.png) 
 
  ### Links
- - solution url: []
+ - solution url: [https://github.com/Binary-R/blog-preview-card]
  - live site url: [http://127.0.0.1:5500/]
   
 
