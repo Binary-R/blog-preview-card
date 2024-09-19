@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'figtree' sans-serif;
+}
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.card{
+    background-color: burlywood;
+    padding: 20px;
+    width: 90%;
+    max-width: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 0px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 0px -4px rgba(0, 0, 0, 0.75);
+}
+.card-image{
+    width: 100%;
+    border-radius: 20px;
+}
+.category{
+    display: inline-block;
+    margin: 20px 0px;
+    background-color: #f4d04e;
+    padding: 5px 15px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.category:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    
+}
+.date{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.article-tittle{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.summary{
+font-size: 16px;
+margin-bottom: 20px;
+color: hsl(0, 0%, 50%);
+font-weight: 600;
+}
+.blogger{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.blogger-image{
+    width: 70px;
+    border-radius: 50px;
+}
+.blogger-name{
+    font-size: 17px;
+}
+@media (min-width: 600px)and (max-width: 800px){
+    main{
+        width: 100%;
+        min-height: 100vh;
+        
+    }
+    .card{
+        width: 80%;
+    }
+}
